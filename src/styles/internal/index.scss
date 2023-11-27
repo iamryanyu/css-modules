@@ -1,0 +1,10 @@
+@function rem($pixel) {
+  @return $pixel / 16 * 1rem;
+}
+
+%button-reset {
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+}
