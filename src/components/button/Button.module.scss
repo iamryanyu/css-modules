@@ -11,10 +11,28 @@
   font-size: rem(16);
   padding: 10px 20px;
   width: var(--button-width);
+
+  :global {
+    .button__content {
+      color: black;
+
+      :local {
+        .button__icon {
+          fill: red;
+        }
+      }
+    }
+  }
 }
 
-.button--blue {
+// .button--blue {
+//   --button-background-color: blue;
+// }
+
+.button-blue {
   --button-background-color: blue;
+  composes: button;
+  // background-color: blue;
 }
 
 .button--orange {

@@ -7,7 +7,9 @@ const LoginPage = () => {
       id='login-button'
       color='orange'
       customClasses={styles['form__button']}
-    />
+    >
+      Login
+    </Button>
   );
 };
 

@@ -7,7 +7,9 @@ const OrderPage = () => {
       id='order-button'
       color='blue'
       customClasses={styles['form__button']}
-    />
+    >
+      Order
+    </Button>
   );
 };
 
